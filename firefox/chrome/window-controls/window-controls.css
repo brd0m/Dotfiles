@@ -1,0 +1,67 @@
+/* Modified colors from Neikon's AutoColor-minimal-Proton
+https://github.com/Neikon/AutoColor-Minimal-Proton */
+
+/* Custom min-max-close Buttons */
+.titlebar-button {
+	transition: all 0.3s ease !important;
+	vertical-align: middle !important;
+	padding: 5px 5px 0px 10px !important;
+    
+}
+.titlebar-button > .toolbarbutton-icon {
+	transition: all 0.3s ease !important;
+	list-style-image: none;
+  	border: 1px solid;
+	border-radius: 10px;
+}
+.titlebar-button.titlebar-min > .toolbarbutton-icon {
+	/* background: #27c840 !important; */
+	/* background: #9ece6a !important; */
+	background: #73daca !important;
+  	/* border-color: #27c83f7a !important; */
+	border-color: #73dabf7a  !important;
+}
+
+.titlebar-button.titlebar-max > .toolbarbutton-icon,
+.titlebar-button.titlebar-restore > .toolbarbutton-icon {
+	/* background: #febb2e !important; */
+	background: #ff9e64 !important;
+  	/* border-color: #febc2e7c !important; */
+	border-color: #ff9f2e7c !important;
+
+}
+
+.titlebar-button.titlebar-close > .toolbarbutton-icon {
+	/* background: #ff5f57 !important; */
+	background: #f7768e !important;
+	
+	stroke: #f7768e !important;
+  	border-color: #f7768e77 !important;
+  
+}
+.titlebar-button.titlebar-close:hover > .toolbarbutton-icon {
+	background: #f7768e42 !important;
+  	border: 1px solid;
+  	border-color: #f7768e !important;
+}
+.titlebar-button.titlebar-close:hover {
+	background: #fdfdfd00 !important;
+}
+.titlebar-button.titlebar-max:hover > .toolbarbutton-icon,
+.titlebar-button.titlebar-restore:hover > .toolbarbutton-icon {
+	/* background: #febc2e44 !important; */
+	background: #ff9f2e44 !important;
+  	border: 1px solid;
+  	border-color: #ff9e64 !important;
+}
+.titlebar-button.titlebar-max:hover, .titlebar-button.titlebar-restore:hover {
+	background: #fdfdfd00 !important;
+}
+.titlebar-button.titlebar-min:hover > .toolbarbutton-icon {
+	background: #73dabf38 !important;
+  	border: 1px solid;
+  	border-color: #73daca !important;
+}
+.titlebar-button.titlebar-min:hover {
+	background: #fdfdfd00 !important;
+}
